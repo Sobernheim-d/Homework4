@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+.char{
+    margin: 0;
+}
+
+.attack-button{
+    margin: 5px auto;
+    width: 100%;
+}
+.display{
+    display: none;
+}
+.characters, .defenders{
+    background: rgba(0,0,0, .5);
+    padding: 10px 0;
+}
+.characters img:hover, .defenders img:hover{
+    cursor: pointer;
+}
+.characters img, .defenders img{
+    width: 50%;
+}
+.characters h4, .defenders h4{
+    background: rgba(255,255,255,.3);
+    width: 100%;
+}
